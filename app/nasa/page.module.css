@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+  align-content: center;
+  justify-content: center;
+}
+
+.submitInputContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 40px
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.dataContainer {
+  margin: 40px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.dataText {
+    font-size: 1em;
+    color: var(--color-primary);
+}
+
