@@ -22,3 +22,12 @@
     font-style: normal;
 }
 
+.main-page-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+

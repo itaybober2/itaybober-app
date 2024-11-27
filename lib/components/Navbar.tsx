@@ -11,6 +11,7 @@ export default function Navbar() {
         <Link href="/">Home</Link>
         <Link href="/tic-tac-toe">Tic Tac Toe</Link>
         <Link href="/nasa">NASA</Link>
+        <Link href={"/design"}>Design</Link>
       </nav>
     </header>
   );
