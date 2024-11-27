@@ -1,0 +1,148 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/design/screens/signInScreen/SignInScreen.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.screen-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 288px;
+    height: 197px;
+    margin-top: 3em;
+    gap: 1em
+}
+
+.subtitle-container {
+    width: 170px;
+    height: 102px;
+}
+
+.input-fields-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    width: 80%;
+    margin-bottom: 14em;
+}
+
+input {}
+
+h1 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 800;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/design/page.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.page_designApp__lbGCo {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(webpack:///mini-css-extract-plugin//_next/static/media/Ellipse2.66103e1c.png);
+  background-size: 615px;
+  background-position-x: -111px;
+  background-position-y: -30px;
+  background-repeat: no-repeat;
+}
+
+.page_everyButton__qKXbt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.page_helloH3__uOXt9 h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    margin-left: -5em;
+    width: 157px;
+    height: 68px;
+    letter-spacing: 1px;
+}
+
+.page_helloH1__Iwf1O h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-left: -3.5em;
+    margin-top: 2em;
+    width: 139px;
+    height: 76px;
+}
+
+.page_helloP__Ia420 p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 2em;
+    width: 288px;
+    height: 373px;
+    font-size: 24px;
+    line-height: 175%;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/design/screens/thankYouScreen/ThankYouScreen.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.thank-you-screen-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 288px;
+    height: 197px;
+    margin-top: 3em;
+    gap: 1em
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 800;
+}
