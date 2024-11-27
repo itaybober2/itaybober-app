@@ -73,7 +73,7 @@ const SignInScreen = (props: ScreenProps) => {
                 <input type="time" placeholder=" Time of birth*" onChange={(event) => handleChange(event, setTimeOfBirth)}/>
                 <input inputMode='text' placeholder=' Hospital*' onChange={(event) => handleChange(event, setHospital)}/>
             </div>
-            {!ableToProceed && <button className={styles.everyButton} onClick={() => setPage('thank you')}>Send</button>}
+            {ableToProceed && <button className={styles.everyButton} onClick={() => setPage('thank you')}>Send</button>}
         </div>
     );
 };
