@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.screen-container {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #fff;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../../../../public/Ellipse2.png");
+    background-size: 615px;
+    background-position-x: -111px;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+}
+
+.titles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 288px;
+    height: 197px;
+    margin-top: 3em;
+    gap: 1em
+}
+
+.subtitle-container {
+    width: 170px;
+    height: 102px;
+}
+
+.input-fields-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    width: 80%;
+    margin-bottom: 14em;
+}
+
+
+.error-container {
+    position: absolute;
+    margin-top: 26em;
+    width: 80%;
+}

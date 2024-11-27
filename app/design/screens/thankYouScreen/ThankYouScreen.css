@@ -1,0 +1,32 @@
+.thank-you-screen-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../../../../public/Ellipse2.png");
+    background-size: 700px;
+    background-position-x: -120px;
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+}
+
+.ty-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 288px;
+    height: 197px;
+    margin-top: 14em;
+    gap: 3em
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 800;
+}

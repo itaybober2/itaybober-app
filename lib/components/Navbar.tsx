@@ -9,10 +9,8 @@ export default function Navbar() {
       </h1>
       <nav>
         <Link href="/">Home</Link>
-        <Link href={COURSE_GITHUB} target="_blank">
-          GitHub
-        </Link>
-        {DEMOS_ENABLED ? <Link href="/demos">Demos</Link> : null}
+        <Link href="/tic-tac-toe">Tic Tac Toe</Link>
+        <Link href="/nasa">NASA</Link>
       </nav>
     </header>
   );

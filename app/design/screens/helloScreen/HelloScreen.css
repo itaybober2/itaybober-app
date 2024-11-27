@@ -1,0 +1,51 @@
+.hello-screen-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("../../../../public/Ellipse2.png");
+    background-size: 615px;
+    background-position-x: -111px;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+}
+
+
+.hello-text-container {
+    margin-left: 3em;
+    margin-bottom: 4em;
+}
+
+.hello-titles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 288px;
+    height: 197px;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.helloH3 h3 {
+    font-weight: 800;
+    width: 157px;
+    height: 68px;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+.helloH1 h1 {
+    font-weight: 500;
+    width: 139px;
+    height: 76px;
+}
+
+.helloP p {
+    width: 260px;
+    height: 373px;
+    font-size: 26px;
+    line-height: 150%;
+}
